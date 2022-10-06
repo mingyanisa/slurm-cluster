@@ -22,3 +22,6 @@ To check logs:
 To check running containers:
 
      $ docker-compose -f docker-compose-jupyter.yml ps
+
+Command to load .env
+```export $(grep -v '^#' .env | xargs)```
